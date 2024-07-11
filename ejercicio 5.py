@@ -1,9 +1,12 @@
-edad = int(input("¿Cual es su edad?"))
-if(edad < 10):
-    print("Eres niño/niña")
-elif(edad > 10 and edad < 13):
-    print("Eres pre-adolescente")
-elif(edad > 13 and edad < 17):
-    print("Eres adolescente")
-else:
-    print("Eres mayor")
+cantidad_numeros = 0
+suma = 0
+
+while cantidad_numeros <5:
+    if cantidad_numeros <5:
+        numero = float(input("Ingrese un numero: "))
+        cantidad_numeros = cantidad_numeros + 1
+        suma = suma + numero
+
+print("La suma de estos numeros es ", suma)
+print("El promedio de la suma es ", suma / 5)
+
